@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="chrome">
+  <parameter name="browser" value="chrome"></parameter>
+    <classes>
+      <class name="Testpackage.TestNg"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <parameter name="browser" value="Edge"></parameter>
+  <test thread-count="5" name="edge">
+    <classes>
+      <class name="Testpackage.TestNg"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

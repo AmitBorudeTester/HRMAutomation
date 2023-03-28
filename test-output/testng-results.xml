@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-03-24T22:17:39 IST" name="Suite" finished-at="2023-03-24T22:18:05 IST" duration-ms="26640">
+    <groups>
+    </groups>
+    <test started-at="2023-03-24T22:17:39 IST" name="chrome" finished-at="2023-03-24T22:17:52 IST" duration-ms="13889">
+      <class name="Testpackage.TestNg">
+        <test-method is-config="true" signature="beforeTest(java.lang.String)[pri:0, instance:Testpackage.TestNg@55182842]" started-at="2023-03-24T22:17:39 IST" name="beforeTest" finished-at="2023-03-24T22:17:52 IST" duration-ms="13176" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method is-config="true" signature="beforeclass()[pri:0, instance:Testpackage.TestNg@55182842]" started-at="2023-03-24T22:17:52 IST" name="beforeclass" finished-at="2023-03-24T22:17:52 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeclass -->
+        <test-method is-config="true" signature="beforemethod()[pri:0, instance:Testpackage.TestNg@55182842]" started-at="2023-03-24T22:17:52 IST" name="beforemethod" finished-at="2023-03-24T22:17:52 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method signature="LoginFunction()[pri:0, instance:Testpackage.TestNg@55182842]" started-at="2023-03-24T22:17:52 IST" name="LoginFunction" finished-at="2023-03-24T22:17:52 IST" duration-ms="32" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginFunction -->
+        <test-method is-config="true" signature="aftermethod()[pri:0, instance:Testpackage.TestNg@55182842]" started-at="2023-03-24T22:17:52 IST" name="aftermethod" finished-at="2023-03-24T22:17:52 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+        <test-method is-config="true" signature="afterclass()[pri:0, instance:Testpackage.TestNg@55182842]" started-at="2023-03-24T22:17:52 IST" name="afterclass" finished-at="2023-03-24T22:17:52 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterclass -->
+        <test-method is-config="true" signature="aftertest()[pri:0, instance:Testpackage.TestNg@55182842]" started-at="2023-03-24T22:17:52 IST" name="aftertest" finished-at="2023-03-24T22:17:52 IST" duration-ms="582" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftertest -->
+      </class> <!-- Testpackage.TestNg -->
+    </test> <!-- chrome -->
+    <test started-at="2023-03-24T22:17:52 IST" name="edge" finished-at="2023-03-24T22:18:05 IST" duration-ms="12709">
+      <class name="Testpackage.TestNg">
+        <test-method is-config="true" signature="beforeTest(java.lang.String)[pri:0, instance:Testpackage.TestNg@5542c4ed]" started-at="2023-03-24T22:17:52 IST" name="beforeTest" finished-at="2023-03-24T22:18:05 IST" duration-ms="12201" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method is-config="true" signature="beforeclass()[pri:0, instance:Testpackage.TestNg@5542c4ed]" started-at="2023-03-24T22:18:05 IST" name="beforeclass" finished-at="2023-03-24T22:18:05 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeclass -->
+        <test-method is-config="true" signature="beforemethod()[pri:0, instance:Testpackage.TestNg@5542c4ed]" started-at="2023-03-24T22:18:05 IST" name="beforemethod" finished-at="2023-03-24T22:18:05 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method signature="LoginFunction()[pri:0, instance:Testpackage.TestNg@5542c4ed]" started-at="2023-03-24T22:18:05 IST" name="LoginFunction" finished-at="2023-03-24T22:18:05 IST" duration-ms="11" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginFunction -->
+        <test-method is-config="true" signature="aftermethod()[pri:0, instance:Testpackage.TestNg@5542c4ed]" started-at="2023-03-24T22:18:05 IST" name="aftermethod" finished-at="2023-03-24T22:18:05 IST" duration-ms="15" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+        <test-method is-config="true" signature="afterclass()[pri:0, instance:Testpackage.TestNg@5542c4ed]" started-at="2023-03-24T22:18:05 IST" name="afterclass" finished-at="2023-03-24T22:18:05 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterclass -->
+        <test-method is-config="true" signature="aftertest()[pri:0, instance:Testpackage.TestNg@5542c4ed]" started-at="2023-03-24T22:18:05 IST" name="aftertest" finished-at="2023-03-24T22:18:05 IST" duration-ms="466" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftertest -->
+      </class> <!-- Testpackage.TestNg -->
+    </test> <!-- edge -->
+  </suite> <!-- Suite -->
+</testng-results>
